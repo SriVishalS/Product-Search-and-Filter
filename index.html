@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <div class="wrapper">
+            <div class="header">product Search and Filter.</div>
+            <div class="search-container">
+                  <input type="search" name="" id="search-input" placeholder="Search Our Products">
+                  <button id="search" style="border-radius: 30px;">Search</button>
+            </div>
+            <div id="buttons">
+                  <button class="btn-value" value="all" onclick="filterProduct('all')">All</button>
+                  <button class="btn-value" value="Shirts" onclick="filterProduct('Shirts')">Shirts</button>
+                  <button class="btn-value" value="T-shirts"
+                        onclick="filterProduct('T-shirts')">T-shirts</button>
+                  <button class="btn-value" value="Shoes" onclick="filterProduct('Shoes')">Shoes</button>
+                  <button class="btn-value" value="Pants" onclick="filterProduct('Pants')">Pants</button>
+             
+            </div>
+            <div class="products">
+
+            </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>

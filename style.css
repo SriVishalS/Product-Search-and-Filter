@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Kanit", sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.hide {
+  display: none;
+}
+.header {
+  background-color: rebeccapurple;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+.cont {
+  text-align: center;
+}
+h5 {
+  margin: 10px;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.search-container {
+  margin: 1em 0;
+}
+.search-container input {
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid #000;
+  padding: 1em 0.3em;
+  margin: 20px;
+  font-size: 15px;
+}
+.search-container input:focus {
+  border-bottom-color: rgb(51, 51, 143);
+}
+#buttons button,
+.search-container button {
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color: royalblue;
+  color: aliceblue;
+  border-radius: 30px;
+  margin-top: 0.5em;
+}
+.active {
+  border: 3px solid rebeccapurple;
+  background-color: aliceblue !important;
+  color: black !important;
+}
+.products {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1.5em;
+  padding: 2em 0;
+  width: 100%;
+}
+.card {
+  margin-top: 10px;
+  padding: 1em;
+  max-width: 50em;
+  border-radius: 5px;
+  box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+}
+.image-container {
+  text-align: center;
+}
+img {
+  background-size: 100% 100%;
+  height: 10em;
+  max-width: 100%;
+}
